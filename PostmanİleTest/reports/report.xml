@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pet Store (Fixed)" tests="4" time="1.490">
+  <testsuite name="Get Pets by Status" id="f2f68f98-bb2d-4d13-aa5d-c5481298c002" timestamp="2025-01-22T17:41:29.613Z" tests="2" failures="0" errors="0" time="1.032">
+    <testcase name="Status code is 200" time="1.032" classname="GetPetsByStatus"/>
+    <testcase name="Body should be an array" time="1.032" classname="GetPetsByStatus"/>
+  </testsuite>
+  <testsuite name="Add a New Pet (POST)" id="8e4215c5-ca9a-420d-ab87-a2a5b0efc79c" timestamp="2025-01-22T17:41:29.613Z" tests="2" failures="0" errors="0" time="0.155">
+    <testcase name="Status code is 200" time="0.155" classname="AddANewPetPost"/>
+    <testcase name="Pet name is NewPet" time="0.155" classname="AddANewPetPost"/>
+  </testsuite>
+  <testsuite name="Update Pet (PUT)" id="b53b4713-9e5d-4e5a-a272-79d78f141f81" timestamp="2025-01-22T17:41:29.613Z" tests="3" failures="0" errors="0" time="0.152">
+    <testcase name="Status code is 200" time="0.152" classname="UpdatePetPut"/>
+    <testcase name="Pet name is UpdatedPet" time="0.152" classname="UpdatePetPut"/>
+    <testcase name="Pet status is sold" time="0.152" classname="UpdatePetPut"/>
+  </testsuite>
+  <testsuite name="Delete Pet" id="2ccbae38-9e77-4695-8a28-d940a18fa0b9" timestamp="2025-01-22T17:41:29.613Z" tests="1" failures="0" errors="0" time="0.151">
+    <testcase name="Status code is 200" time="0.151" classname="DeletePet"/>
+  </testsuite>
+</testsuites>
